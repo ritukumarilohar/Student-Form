@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Form</title>
+    </head>
+    <body bgcolor=" darkblue" text="white">
+       <h1>Student Form</h1> 
+       <p>Please fill in your information to the best of your knowledge to avail the facilities</p>
+       <form>
+             <p>
+                <label>First name : <input type="text" required/> </label>
+             </p>
+             <p>
+                <label>Middle name : <input type="text"/> </label>
+             </p>
+             <p>
+                <label>Last name : <input type="text"/> </label>
+             </p>
+             <p>
+                <label>Email : <input type="email" required/> </label>
+             </p>
+             <p>
+                <label>Password : <input type="password" required/> </label>
+             </p>
+             <p>Gender :
+                <label><input type="radio" name="gender" value="Male"/>Male </label>
+                <label><input type="radio" name="gender" value="Female"/>Female </label>
+                <label><input type="radio" name="gender" value="Other(s)"/>Other </label>
+                <label><input type="radio" name="gender" value="No"/>Prefer not to disclose </label>
+            </p>
+             <p>
+                <label>Phone : <input type="number"/></label>
+             </p>
+             <p>
+                <label>Date of Birth : <input type="date"/></label>
+             </p>
+
+             <p>Department :
+                <select name="Department" required>
+                    <option value="CSE">CSE</option>
+                    <option value="BME">BME</option>
+                    <option value="EE">EE</option>
+                    <option value="CIVIL">CIVIL</option>
+                </select>
+             </p>
+             <p>
+                <label>Rollno : <input type="text" required/></label>
+             </p>
+             <p>
+                <label>Language(s) you know :
+                    <ul>
+                    <li><input type="checkbox" name="language" value="Hindi"/>Hindi</li>
+                    <li><input type="checkbox" name="language" value="English"/>English</li>
+                    <li><input type="checkbox" name="language" value="Bangla"/>Bangla</li>
+                    </ul>
+                </label>
+             </p>
+             <p>Suggestion :
+                <textarea name="Suggestion" rows="8" cols="30">Provide Suggestion</textarea>
+             </p>
+             <p>
+                 <button type="submit">Submit</button>
+             </p>
+       </form>
+    </body>
+</html>
